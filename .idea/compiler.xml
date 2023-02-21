@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Git_Usages" />
+        <module name="AWS_CI_CD_DEPLOY" />
       </profile>
     </annotationProcessing>
   </component>

@@ -11,8 +11,7 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                 git 'https://github.com/Haribab1129/New_Prime_Series.git'
-
-                 bat "mvn -Dmaven.test.failure.ignore=true clean package"
+                bat "${mvnHome}/bin/mvn package"
             }
 
             post {

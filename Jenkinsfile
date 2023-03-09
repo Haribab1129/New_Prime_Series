@@ -11,7 +11,7 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                 git 'https://github.com/Haribab1129/New_Prime_Series.git'
-                bat "${mvnHome}/bin/mvn package"
+                bat "${maven}/bin/mvn package"
             }
 
             post {
